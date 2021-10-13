@@ -1,0 +1,56 @@
+body{
+    background: #04A1BF;
+    font-family: 'Open Sans', sans-serif;
+    color: white
+}
+
+h1{
+    font-weight: 800;
+}
+
+ul{
+    padding: 0;
+}
+
+
+li{
+    text-align: left;
+    list-style: none;
+    background-color: #4EB9CD;
+    padding: 0.7em;
+    border: 2px solid #025f70;
+    border-radius: 0.5em;
+    transition: all 0.3s;
+    margin: 0.5em;
+}
+
+
+li > button{
+    float: right;
+    background: none;
+    border: none
+}
+
+#add{
+    background: #025F70;
+    border: none;
+    padding: 0.2em 1em;
+    border-radius: 0.5em;
+    margin-left: 0.5em;
+    transition: all 0.2s;
+}
+
+#add:hover{
+    border: none;
+    box-shadow: 0em 0.5em 0.5em -0.4em black;
+    transform: translateY(-0.2em);
+    cursor: pointer;
+}
+
+.done{
+    background-color: #51DF70;
+    color: #00891E;
+}
+.delete{
+    display: none;
+}
