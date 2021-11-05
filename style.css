@@ -65,3 +65,11 @@ li:hover{
 .delete{
     display: none;
 }
+
+.dragging{
+    opacity: 0.4;
+}
+
+.hover{
+    border-top: 3px dashed white
+}
