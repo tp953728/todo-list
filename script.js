@@ -94,7 +94,6 @@ function handleDragLeave(e) {
 function handleDrop(e) {
     e.preventDefault();
     e.stopPropagation();
-    console.log(todoList)
     if (dragSrc !== this) {
         this.parentNode.removeChild(dragSrc)
         const appendChild = e.dataTransfer.getData('text/html');
